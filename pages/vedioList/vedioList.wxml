@@ -7,7 +7,7 @@
               <image mode='aspectFit' class="playButton" src='https://newbuz.360buyimg.com/movie/index/videoPlay.png'></image>
             </view>
             <view class='title'>
-                <text>{{item.title}}！</text>
+                <text>{{item.title}}</text>
             </view>
           </view>
      </block>
