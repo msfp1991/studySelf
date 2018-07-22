@@ -7,7 +7,7 @@ page{
     background: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(42,174,255,1)), to(rgba(126,233,194,1)));
     background: -o-linear-gradient(bottom, rgba(126,233,194,1), rgba(42,174,255,1));
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#7ee9c2, endColorstr=#2aaeff);
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#7ee9c2, endColorstr=#2aaeff)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#7ee9c2, endColorstr=#2aaeff)"; 
 }
 .container {
   
