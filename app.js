@@ -5,8 +5,6 @@ App({
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     if(!wx.getStorageInfoSync("startTime")){
-      var nowTime = new Date();
-
       wx.setStorage({
         key: 'startTime',
         data: new Date(new Date().setHours(0, 0, 0, 0)).getTime() ,
