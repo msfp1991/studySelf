@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+   <view class='top'>
+       <image  mode='aspectFit' src='../../images/title.jpeg'></image>
+   </view>
+   <view class='top1'>
+       <text>第1天哦</text>
+       <text>继续加油哟</text>
+   </view>
+   <view class='main'>
+      <view class='item' data-path="studyList" bindtap='goStudyList'>学单词</view>
+      <view class='item' data-path="vedioList" bindtap='goStudyList'>短视频</view>
+   </view>
+</view>

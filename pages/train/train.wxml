@@ -1,0 +1,12 @@
+<view class='main'>
+   <view>
+        <swiper circular="{{circular}}" indicator-dots="{{indicatorDots}}" bindchange='bindchange'
+          autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+          <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+            <swiper-item>
+              <image mode='widthFix' src="http://i.xiao84.com/allimg/letter/{{item}}.jpg" class="slide-image"/>
+            </swiper-item>
+        </block>
+</swiper>
+   </view>
+</view>
