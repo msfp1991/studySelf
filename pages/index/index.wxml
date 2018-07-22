@@ -4,7 +4,7 @@
        <image  mode='aspectFit' src='../../images/title.jpeg'></image>
    </view>
    <view class='top1'>
-       <text>第1天哦</text>
+       <text>第{{dayTime}}天哦</text>
        <text>继续加油哟</text>
    </view>
    <view class='main'>

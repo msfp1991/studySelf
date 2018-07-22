@@ -7,7 +7,8 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    dayTime:''
   },
   //事件处理函数
   bindViewTap: function() {
@@ -42,6 +43,11 @@ Page({
     //     }
     //   })
     // }
+    var startTime = wx.getStorageSync("startTime");
+    var dayTime = parseInt(((new Date()).getTime()-startTime) / (1000 * 60 * 60 * 24))+1;
+    this.setData({
+      dayTime: dayTime
+    })
   },
   getUserInfo: function(e) {
     console.log(e)

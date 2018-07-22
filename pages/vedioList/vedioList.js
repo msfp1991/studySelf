@@ -9,7 +9,7 @@ Page({
       {
         image: "https://video.acadsoc.com.cn/iesfiles/Cover/20180718/d1be998c-3ad6-4995-96a2-e6af36406ee5.jpg",
         title: "我正在找人参与冒险！",
-        video_address: "https://video.acadsoc.com.cn/iesfiles//20180718/c91b42d7-ce2d-424f-ac02-14a6d8595610.mp4"
+        video_address: "https://video.acadsoc.com.cn/iesfiles/video/20180718/c91b42d7-ce2d-424f-ac02-14a6d8595610.mp4"
       },
       {
         image: "https://video.acadsoc.com.cn/iesfiles/Cover/20180623/6a89ea66-016e-4d3d-a68d-3961c0d6c63c.jpg",
